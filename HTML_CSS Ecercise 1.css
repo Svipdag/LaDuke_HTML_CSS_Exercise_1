@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: lato;
+	background-color: #e17c7d;
+	display: flex;
+	justify-content: center;
+	padding: 15%;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+	
+}
+
+button {
+  background-color: #35E2CE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 20%;
+  align-content: center;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+label {
+	margin-left: 9%;
+	opacity: 0.3;
+}
+
+.imgcontainer {
+  text-align: center;
+  opacity: 0.4;
+}
+
+#centercontainer {
+	text-align: center;
+	
+}
+.container {
+  border: 0px solid #f1f1f1;
+  width: 100%;
+  background-color: #ececec;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	
+}
+
+
+
+
+
